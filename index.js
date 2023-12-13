@@ -21,6 +21,7 @@ app.post('/', (req, res) => {
 
   const oPayload = {
     sdkKey: 'xjN8eqKS1Xfgxm7kcM4w',
+    sdkSecret:'z5F3zcAtjFc7yUaqUi4qim3UarXamoLt',
     mn: req.body.meetingNumber,
     role: req.body.role,
     iat: iat,
