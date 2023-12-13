@@ -25,7 +25,7 @@ app.post('/', (req, res) => {
     role: req.body.role,
     iat: iat,
     exp: exp,
-    // appKey: 'xjN8eqKS1Xfgxm7kcM4w',
+    appKey: 'xjN8eqKS1Xfgxm7kcM4w',
     tokenExp: iat + 60 * 60 * 2
   }
 
